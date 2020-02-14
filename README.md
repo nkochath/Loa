@@ -1,2 +1,2 @@
 # Loa
-Loa: Life organizer app
+Loa: Life organizing app
