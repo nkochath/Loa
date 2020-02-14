@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<h3>Register for loa.</h3>
+
+<form action="/register" method="post">
+  {{ form.hidden_tag() }}
+  {{ form.email.label}}<br>
+  {{ form.email }}<br>
+  {{ form.password.label}}<br>
+  {{ form.password }}<br>
+  {{ form.submit.label }}<br>
+  {{ form.submit }}
+</form>
+
+{% endblock %}
